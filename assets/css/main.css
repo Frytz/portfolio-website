@@ -116,11 +116,12 @@ input, select, textarea {
 /* Type */
 
 	html {
+		/* pt=points, there are approximatly 72.272 points in 1 inch */
 		font-size: 18pt;
 	}
 
 		@media screen and (max-width: 1680px) {
-
+			/* changes font size as screen size is reduced */
 			html {
 				font-size: 14pt;
 			}
@@ -128,7 +129,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+			/* changes font size as screen size is reduced even futher */
 			html {
 				font-size: 12pt;
 			}
@@ -136,7 +137,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			/* changes font size as screen size is reduced even futher */
 			html {
 				font-size: 11pt;
 			}
@@ -144,7 +145,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			/* changes font size as screen size is reduced even futher */
 			html {
 				font-size: 10pt;
 			}
@@ -292,7 +293,7 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
-
+		/* font sizes are scaled by rem units */
 		p.major {
 			font-size: 1.1rem;
 		}
@@ -592,7 +593,7 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
-
+			/* desktop media q's */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -837,7 +838,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+			/* slightly smaller desktop screen */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1082,7 +1083,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+			/* for larger tablets, section 6 goes from rows of 3 to rows of 2 */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1327,7 +1328,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			/* texts, images and boxes are scaled down further */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1572,7 +1573,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			/* mobile sized screens, everthing is in 1 column */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1817,7 +1818,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			/* everything is reduce even further to fit the screen size(side note--there are phone screens this small still in circulation!! */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2285,7 +2286,7 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 480px) {
-
+			/* adjusts form fields */
 			form > .fields {
 				width: calc(100% + 3rem);
 				margin: -1.5rem 0 2rem -1.5rem;
@@ -2823,7 +2824,7 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
-
+			/* adjusts actions */
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -3509,7 +3510,7 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1680px) {
-
+			/* banner adjustments start */
 			.banner.style1 .content {
 				padding: 5rem 5rem 3rem 5rem ;
 			}
@@ -3618,7 +3619,7 @@ input, select, textarea {
 		}
 
 			@media screen and (orientation: portrait) {
-
+				/* banner adjustments end */
 				.banner.style1.content-align-right {
 					text-align: center;
 				}
@@ -4343,7 +4344,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+/* banner adjustments end for all styles */
 			.banner.style5 {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
 			}
@@ -4912,7 +4913,7 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1680px) {
-
+/* spotlight adjustments start */
 			.spotlight.style1 .content {
 				padding: 5rem 5rem 3rem 5rem ;
 			}
@@ -5748,7 +5749,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+/* spotlight adjustments end for all styles */
 			.spotlight.style5 .content {
 				max-width: 80%;
 			}
@@ -5938,7 +5939,7 @@ input, select, textarea {
 
 	.gallery.onload-fade-in article:nth-child(11) .image img {
 		-moz-transition-delay: 1.5s;
-		-webkit-transition-delay: 1.5s;
+		-webkit-transittuion-delay: 1.5s;
 		-ms-transition-delay: 1.5s;
 		transition-delay: 1.5s;
 	}
