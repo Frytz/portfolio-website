@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
 
 /*
 	Story by HTML5 UP
@@ -2636,13 +2637,28 @@ ul.actions.fit.stacked {
 
 /* Icons */
 
-ul.icons a {
-    text-decoration: none;
+ul.icons i {
+    padding-right: 5%;
 }
 
-ul.icons i {
-    /* border: 1px red solid; */
-    padding-right: 0.5%;
+ul.icons a {
+    background-color: blue;
+    box-shadow: 0 9px #999;
+    text-decoration: none;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+ul.icons a:hover {
+    background-color: rgb(63, 14, 64);
+    box-shadow: 0 9px #999;
+}
+
+ul.icons a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 ul.icons {
@@ -2655,7 +2671,6 @@ ul.icons li {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
     padding: 0 0.75rem 0 0;
 }
 
